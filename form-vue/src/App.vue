@@ -1,6 +1,7 @@
 <script setup>
 import Nav from "./components/Nav.vue";
-components: { Nav }
+import Form from "./components/RegisterForm.vue";
+components: { Nav, Form }
 </script>
 
 <template>
@@ -8,5 +9,8 @@ components: { Nav }
     <header>
       <Nav></Nav>
     </header>
+    <main>
+      <Form></Form>
+    </main>
   </div>
 </template>
